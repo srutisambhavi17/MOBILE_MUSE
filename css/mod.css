@@ -1,0 +1,168 @@
+ body
+	{
+ 	 padding:0px;
+  	margin:0px;
+	}
+
+#container
+	{
+  	width: 986px;
+ 	 margin:auto;
+ 	 border-style:solid;
+	}
+
+#header
+	{
+ 	 height : 120px;
+  	background : #ffffff;
+	}
+
+.topnav
+ 	{
+  	background-color: #333;
+ 	 height:50px;
+	}
+
+.topnav ul
+	{
+	margin:0px;
+	padding:0px;
+	}
+
+.topnav ul li 
+	{
+	display:inline;
+	}
+
+.topnav ul li a 
+	{
+ 	 float: left;
+ 	 color: #f2f2f2;
+ 	 text-align: center;
+  	padding: 14px 16px;
+ 	 text-decoration: none;
+  	font-size: 17px;
+	}
+
+.topnav a:hover 
+	{
+	  background-color: #ddd;
+  	color: black;
+	}
+
+.topnav a.active 
+	{
+   	 background-color: #4CAF50;
+   	 color:  vxfge54r
+	}
+
+#banner
+	{
+ 	  height:180px;
+   	background:lightblue;
+	}
+
+#main
+	{
+ 	  height:360px;
+    	background:#ffeeff;
+	}
+
+ #lbody
+	{
+     	width:290px;
+	 height:360px;
+   	 background:#66ffb3;
+   	 float:left;
+	}
+#cbody
+	{
+ 	  
+	width:690px;
+    	background:#ffeeff;
+	float:right;
+	
+	}
+#r1body
+	{
+ 	  width:490px; 
+	height:360px;	   	
+  	 background:#0000fff;
+	float:left;
+	}
+#rbody
+	{
+	   width:200px;
+	height:360px;
+  	 background:#66ffb3;
+  	float:right;
+	}
+
+#login-submit
+{
+	height:35px;
+	width:100px;
+	background:#005555;
+	
+}
+
+#login-cancel
+{
+	height:35px;
+	width:100px;
+	background:#9e7832;
+	color:#ffff00;
+}
+.textfield
+{
+	height:50px;
+	width:200px;
+}
+#footer 
+	{
+	 height:100px;
+ 	background:#000000;
+	}
+
+#footer:hover
+	{
+	background-color:#ccc2ff;
+	}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create three columns of equal width */
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+/* Style the list */
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+
+
+/* Pricing header */
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+/* List items */
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    text-align: center;
+}
